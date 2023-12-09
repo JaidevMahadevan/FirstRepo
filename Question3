@@ -1,0 +1,29 @@
+import queue
+
+
+
+# Create a Priority Queue
+
+my_priority_queue = queue.PriorityQueue()
+
+
+
+# Add elements to the Priority Queue
+
+# Elements are tuples with a priority value and the actual data
+
+element_to_add = (2, "High Priority")
+
+my_priority_queue.put(element_to_add)
+
+
+
+# Pop an element from the Priority Queue
+
+popped_element = my_priority_queue.get()
+
+
+
+# Show the output
+
+print("Element added to the priority queue:", popped_element[1])
